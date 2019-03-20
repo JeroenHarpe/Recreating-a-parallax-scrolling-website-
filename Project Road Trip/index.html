@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Road Trip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+<body onload="onLoad()">
+    <div class="container">
+<header>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">Generic</a>
+                <a href="#">Elements</a>
+              </div>
+              
+              <div class="icon_sidenav">
+              <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+              </div>
+              
+</header>
+  <main>
+<div class="banner1">
+<h1>This is Road Trip</h1>
+<a href="#one"><i class="fas fa-chevron-circle-down"></i></a>
+</div>    
+<div id=one class="banner2">
+  <div class="banner2-content">
+  <h2>NIBH NON LOBORTIS MUS NIBH</h2>
+  <p id="date"></p>
+  <p class="content">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+  <a class="button" href="#">Learn More</a>
+  <a href="#two"><i class="fas fa-chevron-circle-down"></i></a>
+</div>
+</div>    
+<div id=two class="banner3">
+    <div class="banner2-content">
+  <h2>MUS ELIT A ULTRICIES AT</h2>
+  <p id="date"></p>
+  <p class="content">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+  <a class="button" href="#">Learn More</a>
+  <a href="#three"><i class="fas fa-chevron-circle-down"></i></a>
+</div>    
+</div>
+<div id=three class="banner4">
+    <div class="banner2-content">
+        <h2>VARIUS A CURSUS ALIQUET</h2>
+        <p id="date"></p>
+        <p class="content">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+        <a class="button" href="#">Learn More</a>
+        <a href="#four"><i class="fas fa-chevron-circle-down"></i></a>
+      </div>  
+</div>    
+<div id=four class="banner5">
+    <div class="banner2-content">
+        <h2>LUCTUS BLANDIT MI LECTUS IN NASCETUR</h2>
+        <p id="date"></p>
+        <p class="content">Scelerisque enim mi curae erat ultricies lobortis donec velit in per cum consectetur purus a enim platea vestibulum lacinia et elit ante scelerisque vestibulum. At urna condimentum sed vulputate a duis in senectus ullamcorper lacus cubilia consectetur odio proin sociosqu a parturient nam ac blandit praesent aptent. Eros dignissim mus mauris a natoque ad suspendisse nulla a urna in tincidunt tristique enim arcu litora scelerisque eros suspendisse.</p>
+        <a class="button" href="#">Learn More</a>
+        <a href="#five"><i class="fas fa-chevron-circle-down"></i></a>
+      </div>  
+</div>    
+<div id=five class="contactForm">
+
+  <div class="container-form">
+      <h2>Contact Me</h2>
+      <br>
+      <br>
+  <form action="">
+    <label for="fullname">Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter Name">
+    <label for="email">Email</label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br>
+    <br>
+    <label for="subject">Message</label>
+    <textarea id="subject" name="Message" placeholder="Message..." style="height:200px;"></textarea>
+
+    <input type="submit" value="Send Message" >
+
+  </form>
+<!-- </div class="socialMedia">
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+</div> -->
+  </main>
+
+</div>
+
+<script>
+ScrollReveal().reveal('.banner2-content', { delay: 500, duration: 800, easing: 'ease-in'});
+</script>
+</body>
+</html>

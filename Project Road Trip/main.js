@@ -26,4 +26,17 @@ function onLoad() {
   today = dd + '/' + mm + '/' + yyyy;
   document.getElementById("date").innerHTML = today;
 
+
 }
+
+$(document).ready(function() {
+  //Preloader
+  $(window).on("load", function() {
+  preloaderFadeOutTime = 4000;
+  function hidePreloader() {
+  var preloader = $('#preLoader');
+  preloader.fadeOut(preloaderFadeOutTime);
+  }
+  hidePreloader();
+  });
+})
